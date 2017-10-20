@@ -9,8 +9,8 @@
 #   None
 #
 # Commands:
-#   hubot thank[s] [you] - Hubot accepts your thanks
-#   thanks hubot - Hubot accepts your thanks
+#   hubot thank[s] [you] - Hubot aceita seu agradecimento 
+#   thanks hubot - Hubot aceita seu agradecimento
 #
 # Author:
 #   github.com/delucas
@@ -34,6 +34,6 @@ response = [
 module.exports = (robot) ->
   robot.respond /(obrigado|valeu|thanks|thank you)/i, (msg) ->
     msg.send msg.random response
-  thanks = new RegExp "thank(s| you) #{robot.name}", "i"
+  thanks = new RegExp "(obrigado|valeu|thanks|thank you) #{robot.name}", "i"
   robot.hear thanks, (msg) ->
     msg.send msg.random response
