@@ -17,22 +17,22 @@
 #
 
 response = [
-  "you're welcome",
-  "no problem",
-  "not a problem",
-  "no problem at all",
-  "don’t mention it",
-  "it’s no bother",
-  "it’s my pleasure",
-  "my pleasure",
-  "it’s nothing",
-  "think nothing of it",
-  "no, no. thank you!",
-  "sure thing"
+  "obrigado você",
+  "sem problemas",
+  "não, não. obrigado você!",
+  "o prazer é meu",
+  "não foi nada",
+  "por nada",
+  "imagina",
+  "não há de quê",
+  ":+1:",
+  ":ok_hand:",
+  ":fist_oncoming:",
+  ":raised_back_of_hand:"
 ]
 
 module.exports = (robot) ->
-  robot.respond /thank(s| you)/i, (msg) ->
+  robot.respond /(obrigado|valeu|thanks|thank you)/i, (msg) ->
     msg.send msg.random response
   thanks = new RegExp "thank(s| you) #{robot.name}", "i"
   robot.hear thanks, (msg) ->
