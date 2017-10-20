@@ -9,8 +9,8 @@
 #   None
 #
 # Commands:
-#   hubot thank[s] [you] - Hubot aceita seu agradecimento 
-#   thanks hubot - Hubot aceita seu agradecimento
+#   hubot obrigado|valeu|thank[s] [you] - Hubot aceita seu agradecimento
+#   (obrigado|valeu|thank[s] [you]) hubot - Hubot aceita seu agradecimento
 #
 # Author:
 #   github.com/delucas
