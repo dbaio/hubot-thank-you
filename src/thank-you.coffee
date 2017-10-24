@@ -9,7 +9,7 @@
 #   None
 #
 # Commands:
-#   hubot obrigado|valeu|thank[s] [you]|gracias|vlw - Hubot aceita seu agradecimento
+#   hubot obrigado|valeu|thank[s] [you]|gracias|vlw|thx - Hubot aceita seu agradecimento
 #
 # Author:
 #   github.com/delucas
@@ -28,9 +28,9 @@ response = [
   ":+1:",
   ":ok_hand:",
   ":fist_oncoming:",
-  ":raised_back_of_hand:",
   ":v:",
-  ":fist_oncoming: :nerd_face:"
+  "eu que agradeço!!! :v:",
+  ":raised_back_of_hand:"
 ]
 
 module.exports = (robot) ->
