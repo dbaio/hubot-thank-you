@@ -27,6 +27,7 @@ response = [
   ":+1:",
   ":ok_hand:",
   ":fist_oncoming:",
+  "eu que agradeço!!! :v:",
   ":raised_back_of_hand:"
 ]
 
