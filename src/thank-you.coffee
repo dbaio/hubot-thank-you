@@ -16,20 +16,20 @@
 #
 
 response = [
-  "obrigado você",
-  "sem problemas",
-  "não, não. obrigado você!",
-  "o prazer é meu",
-  "não foi nada",
-  "por nada",
-  "imagina",
-  "não há de quê",
-  "eu que agradeço!",
+  "Obrigado você.",
+  "Sem problemas!",
+  "Não, não.\nObrigado você!",
+  "O prazer é meu!",
+  "Não foi nada!",
+  "Por nada!",
+  "Imagina!",
+  "Não há de quê.",
+  "Eu que agradeço!",
   ":+1:",
   ":ok_hand:",
   ":fist_oncoming:",
   ":v:",
-  "eu que agradeço!!! :v:",
+  "Eu que agradeço!!! :v:",
   ":raised_back_of_hand:"
 ]
 
