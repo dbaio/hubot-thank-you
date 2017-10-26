@@ -18,7 +18,7 @@
 response = [
   "Obrigado você.",
   "Sem problemas!",
-  "Não, não. obrigado você!",
+  "Não, não.\nObrigado você!",
   "O prazer é meu!",
   "Não foi nada!",
   "Por nada!",
