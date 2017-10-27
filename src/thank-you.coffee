@@ -16,21 +16,26 @@
 #
 
 response = [
-  "obrigado você",
-  "sem problemas",
-  "não, não. obrigado você!",
-  "o prazer é meu",
-  "não foi nada",
-  "por nada",
-  "imagina",
-  "não há de quê",
   "eu que agradeço!",
-  ":+1:",
-  ":ok_hand:",
-  ":fist_oncoming:",
-  ":v:",
   "eu que agradeço!!! :v:",
-  ":raised_back_of_hand:"
+  "imagina",
+  "não, não.. obrigado você!",
+  "não foi nada",
+  "não há de quê",
+  "o prazer é meu",
+  "obrigado você",
+  "opa, estamos aí",
+  "por nada",
+  "sem problemas",
+  "sempre um prazer inoxidável poder ajudar :smile:",
+  "tamo junto!",
+  ":+1:",
+  ":bowtie:",
+  ":call_me_hand:",
+  ":fist_oncoming:",
+  ":ok_hand:",
+  ":raised_back_of_hand:",
+  ":v:"
 ]
 
 module.exports = (robot) ->
