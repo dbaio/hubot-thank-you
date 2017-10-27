@@ -9,33 +9,39 @@
 #   None
 #
 # Commands:
-#   hubot obrigado|valeu|thank[s] [you]|gracias|vlw|thx - Hubot aceita seu agradecimento
+#   hubot obrigado|gracias|valeu|vlw|thank[s] [you]|tks|thx - Aceita seu agradecimento :-)
 #
 # Author:
 #   github.com/delucas
-#
 
 response = [
-  "obrigado você",
-  "sem problemas",
-  "não, não. obrigado você!",
-  "o prazer é meu",
-  "não foi nada",
-  "por nada",
-  "imagina",
-  "não há de quê",
   "eu que agradeço!",
-  ":+1:",
-  ":ok_hand:",
-  ":fist_oncoming:",
-  ":v:",
   "eu que agradeço!!! :v:",
-  ":raised_back_of_hand:"
+  "imagina",
+  "não, não.. obrigado você!",
+  "não foi nada",
+  "não há de quê",
+  "o prazer é meu",
+  "obrigado você",
+  "opa, estamos aí",
+  "por nada",
+  "sem problemas",
+  "sempre um prazer inoxidável poder ajudar :smile:",
+  "tamo junto!",
+  ":+1:",
+  ":bowtie:",
+  ":call_me_hand:",
+  ":fist_oncoming:",
+  ":ok_hand:",
+  ":raised_back_of_hand:",
+  ":v:"
 ]
 
 module.exports = (robot) ->
-  robot.respond /(obrigad.|valeu|thanks|thank ?you|gracias|vlw|thx)/i, (msg) ->
+  robot.respond /(agradecid.|(assaz|deveras) grat.|gracias|(muito )?obrigad.|thanks|thank ?you|tks|thx|vale+u|vlw+)/i, (msg) ->
     msg.send msg.random response
-  thanks = new RegExp "(obrigad.|valeu|thanks|thank ?you|gracias|vlw|thx) *.#{robot.name}", "i"
+
+  thanks = new RegExp "(agradecid.|(assaz|deveras) grat.|gracias|(muito )?obrigad.|thanks|thank ?you|tks|thx|vale+u|vlw+) *.#{robot.name}", "i"
+
   robot.hear thanks, (msg) ->
     msg.send msg.random response
