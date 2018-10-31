@@ -41,7 +41,7 @@ module.exports = (robot) ->
   robot.respond /(agradecid.|(assaz|deveras) grat.|gracias|(muito )?obrigad.|thanks|thank ?you|tks|thx|vale+u|vlw+)/i, (msg) ->
     msg.send msg.random response
 
-  thanks = new RegExp "(agradecid.|(assaz|deveras) grat.|gracias|(muito )?obrigad.|thanks|thank ?you|tks|thx|vale+u|vlw+) *.#{robot.name}", "i"
+  thanks = new RegExp "(agradecid.|(assaz|deveras) grat.|gracias|(muito )?obrigad.|thanks?( ?you)?|tks|thx|vale+u|vlw+) *.#{robot.name}", "i"
 
   robot.hear thanks, (msg) ->
     msg.send msg.random response
